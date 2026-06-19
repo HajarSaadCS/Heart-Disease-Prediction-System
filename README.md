@@ -48,3 +48,15 @@ The following classification algorithms were implemented and compared:
 | Logistic Regression | Linear model for binary classification |
 | Random Forest | Ensemble of decision trees for improved accuracy |
 | XGBoost | Gradient boosting model with high performance and efficiency |
+
+## 📊 Model Results
+
+The models were evaluated using classification metrics such as Accuracy, Precision, Recall, and F1-score.
+
+### Performance Comparison:
+
+| Model                | Accuracy | Precision | Recall | F1-score |
+|---------------------|----------|-----------|--------|----------|
+| Logistic Regression | 0.80     | 0.81      | 0.79   | 0.80     |
+| Random Forest       | 0.84     | 0.84      | 0.85   | 0.84     |
+| XGBoost             | 0.85     | 0.85      | 0.84   | 0.85     |
