@@ -39,4 +39,12 @@ Several preprocessing steps were applied to prepare the data for machine learnin
 - Encoding categorical variables using One-Hot Encoding
 - Removing irrelevant or highly missing columns (e.g., ca, thal in some experiments)
 - Splitting data into training and testing sets (80% / 20%)
-- Feature scaling was not required for tree-based models
+
+## Machine Learning Models
+The following classification algorithms were implemented and compared:
+
+| Model | Description |
+|------|-------------|
+| Logistic Regression | Linear model for binary classification |
+| Random Forest | Ensemble of decision trees for improved accuracy |
+| XGBoost | Gradient boosting model with high performance and efficiency |
