@@ -12,7 +12,6 @@ This project uses the Heart Disease dataset collected from multiple medical cent
 https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
 
 ##  Features Description
-
 | Feature | Description |
 |---------|-------------|
 | age | Age of the patient |
@@ -29,3 +28,15 @@ https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
 | ca | Number of major vessels colored by fluoroscopy |
 | thal | Thalassemia test result |
 | target | Presence of heart disease (0 = No, 1 = Yes) |
+
+##  Data Preprocessing
+Several preprocessing steps were applied to prepare the data for machine learning models:
+
+###  Steps performed:
+- Handling missing values:
+  - Numerical features → filled with median
+  - Categorical features → filled with mode
+- Encoding categorical variables using One-Hot Encoding
+- Removing irrelevant or highly missing columns (e.g., ca, thal in some experiments)
+- Splitting data into training and testing sets (80% / 20%)
+- Feature scaling was not required for tree-based models
