@@ -49,7 +49,7 @@ The following classification algorithms were implemented and compared:
 | Random Forest | Ensemble of decision trees for improved accuracy |
 | XGBoost | Gradient boosting model with high performance and efficiency |
 
-## 📊 Model Results
+##  Model Results
 
 The models were evaluated using classification metrics such as Accuracy, Precision, Recall, and F1-score.
 
